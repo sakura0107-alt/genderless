@@ -120,7 +120,7 @@
     }
     .menu-trigger.active span:nth-of-type(3) {
         -webkit-transform: translateY(17px) rotate(45deg);
-        transform: translateY(-17px) rotate(-45deg);
+        transform: translateY(-19px) rotate(-45deg);
     }
  }
 /* top */
@@ -367,7 +367,7 @@
 @media (max-width: 375px) {
     #page_top {
         position: absolute;
-        width: 10vw;
+        width: 12vw;
         right: 9%;
       }
   }

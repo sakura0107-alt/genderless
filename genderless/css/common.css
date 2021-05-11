@@ -59,6 +59,9 @@ footer {
   #page_top a {
     padding: 10px 10px
   }
+  .page_top_button {
+    width: 100%;
+  }
 }
 
 /* 画面切り替え */
@@ -90,3 +93,18 @@ footer {
   }
 .boxDisplay { display: block; }
 .boxNone { display: none; }
+
+/* ハンバーガー */
+.show{
+  display: block !important;
+  animation: show 1s linear 0s;
+}
+
+@keyframes show{
+  from{
+      opacity: 0;
+  }
+  to{
+      opacity: 1;
+  }
+}

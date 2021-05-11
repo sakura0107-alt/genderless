@@ -98,7 +98,7 @@
 }
    .menu-trigger.active span:nth-of-type(3) {
     -webkit-transform: translateY(17px) rotate(45deg);
-    transform: translateY(-15px) rotate(-45deg);
+    transform: translateY(-19px) rotate(-45deg);
 }
    .header-nav {
        background-image: url("../image/top_sp_ham.png");
@@ -121,7 +121,7 @@
     }
     .menu-trigger.active span:nth-of-type(3) {
         -webkit-transform: translateY(17px) rotate(45deg);
-        transform: translateY(-16px) rotate(-45deg);
+        transform: translateY(-20px) rotate(-45deg);
     }
  }
 /* top */
@@ -395,7 +395,7 @@
     .section-profile-content h2 {
     font-size: 17.2vw;
     right: 31px;
-    top: 92%;
+    top: 97%;
     padding-right: 17%;
     border-bottom: 1px solid #760507;
     background-size: 40%;
@@ -418,6 +418,14 @@
     background-size: cover;
     }
 }
+@media (max-width: 599px) {
+    #page_top a {
+      padding: 10px 10px
+    }
+    .page_top_button {
+      margin-top: 180%;
+    }
+  }
 @media (max-width: 375px) {
     #page_top {
         position: absolute;
